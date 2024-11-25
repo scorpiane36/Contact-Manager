@@ -1,0 +1,19 @@
+REST API - JSON
+
+GET /users - List all users in HTML docs -DONE
+GET /api/users - List all users in JSON format -DONE
+
+
+GET /api/users/1 - Get a user by ID 1 -DONE
+GET /api/users/2 - Get a user by ID 2 -DONE
+
+//for assigning dynamic variable or id
+GET /api/users/:id - Get a user by ID 2 -DONE
+
+POST /api/users - Create a new user
+
+PATCH /api/user/1 - Edit the user with ID 1
+
+DELETE /api/users/1 - Delete the user with ID 1
+
+${users.map(users => `<li>${users.name}</li>`).join('')}
